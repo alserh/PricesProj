@@ -55,16 +55,15 @@ with open("zoomos.csv") as price1:
     for row in price1_dict:
         if row["Бренд"] == "Thule":
             needed_backpacks.append(row)
-# print(needed_backpacks)
 
+# defining the rows range to make the .xls usable
 def thule_row():
     for row in range(sh.nrows):
         if sh.cell_value(rowx = row, colx = 0) == "Thule":
             return row
 
-# print(sorted(needed_backpacks[0]["Модель"][5:].lower())
-
-
+# this was supposed to count the matching % of the name, but did not really work out.
+# need to develop another comparison logic or move to another idea
 def count_match(zoomos_backpack, thule_backpack):
     count = 0
     for charachter in zoomos_backpack.lower():
@@ -73,14 +72,12 @@ def count_match(zoomos_backpack, thule_backpack):
     return count / (len(zoomos_backpack) / 100)
 a = "Paramount 24L PARABP-2116 (бежевый)"
 b = "PARABP2116TW Рюкзак для ноутбука Thule Paramount Backpack 24L, бежевый, 3204488"
-
-print(count_match(a,b))
-
+# even 98% match does not really match with the appropriate position in price :(
 for backpacks in needed_backpacks:
     for row in range(thule_row(), sh.nrows, 1):
         if count_match(backpacks["Модель"], sh.cell_value(rowx = row, colx = 1)) >= 98:
             print("Found it! {thule} = {memes}".format(thule = sh.cell_value(rowx = row, colx = 1), memes = backpacks["Модель"]))
-#
+
 
 # Output section
 with open("Проверка на дату {date}.txt".format(date = date.today()), "w") as output:
