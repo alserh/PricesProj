@@ -1,0 +1,101 @@
+
+    =============================
+    = ВНИМАНИЕ!! НЕТ У X-CORE!! =
+    =============================
+
+Varmilo MA108M Moonlight (EC Sakura V2) - нет у XCore!
+
+==============================================================
+
+    =================================
+    = КОРРЕКТИРОВКА ЦЕН (ЕСЛИ НУЖНО)=
+    =================================
+
+Durgod Taurus K310 Nebula RGB (MX Blue, нет кириллицы) - правильная цена - 378,48
+Durgod Taurus K310 Nebula RGB (MX Brown, нет кириллицы) - правильная цена - 378,47
+Durgod Taurus K310 Nebula RGB (MX Red, нет кириллицы) - правильная цена - 378,48
+Durgod Taurus K310 Nebula RGB (MX Silent Red, нет кириллицы) - правильная цена - 419,21
+Durgod Taurus K310 Nebula RGB (MX Speed Silver, нет кириллицы) - правильная цена - 403,54
+Durgod Taurus K310 White Led (серый, MX Blue, нет кириллицы) - правильная цена - 328,31
+Durgod Taurus K310 White Led (серый, MX Silent Red, нет кириллицы) - правильная цена - 372,2
+Durgod Taurus K310 White Led (серый, MX Speed Silver, нет кириллицы) - правильная цена - 359,67
+Durgod Taurus K320 Nebula RGB (MX Silent Red, нет кириллицы) - правильная цена - 403,54
+Durgod Taurus K320 Nebula RGB (MX Speed Silver, нет кириллицы) - правильная цена - 359,67
+Durgod Taurus K320 White Led (темно-серый, MX Silent Red, нет кирил.) - правильная цена - 325,2
+Leopold FC750R PD (желтый/синий, Cherry MX Blue, нет кириллицы) - правильная цена - 418,98
+Leopold FC750R PD (желтый/синий, Cherry MX Clear, нет кириллицы) - правильная цена - 418,99
+Leopold FC900R PD (красный/белый, Cherry MX Clear, нет кириллицы) - правильная цена - 430,94
+Leopold FC900R PD (серый, Cherry MX Blue, нет кириллицы) - правильная цена - 373,48
+Leopold FC980M PD (черный/желтый, Cherry MX Black, нет кириллицы) - правильная цена - 395,04
+Leopold FC980M PD (черный/желтый, Cherry MX Red, нет кириллицы) - правильная цена - 395,03
+Varmilo MA108M Beijing Opera (EC Rose V2, нет кириллицы) - правильная цена - 638,53
+Varmilo MA108M Koi (EC Daisy V2, нет кириллицы) - правильная цена - 632,84
+Varmilo MA108M Koi (EC Rose V2, нет кириллицы) - правильная цена - 643,1
+Varmilo MA108M Koi (EC Sakura V2, нет кириллицы) - правильная цена - 632,84
+Varmilo MA108M Moonlight (EC Daisy V2) - правильная цена - 585,82
+Varmilo MA108M Moonlight (EC Rose V2) - правильная цена - 585,82
+Varmilo MA108M Moonlight (EC Sakura V2) - правильная цена - 0
+Varmilo MA108M Sea Melody (EC Daisy V2) - правильная цена - 579,72
+Varmilo MA108M Sea Melody (EC Rose V2) - правильная цена - 579,72
+Varmilo MA108M Sea Melody (EC Sakura V2) - правильная цена - 585,82
+Varmilo MA108M Yakumo (EC Daisy V2) - правильная цена - 585,82
+Varmilo MA108M Yakumo (EC Rose V2) - правильная цена - 585,82
+Varmilo MA108M Yakumo (EC Sakura V2) - правильная цена - 585,82
+Varmilo MA87M Koi (EC Rose V2, нет кириллицы) - правильная цена - 585,82
+Varmilo MA87M Moonlight (EC Daisy V2) - правильная цена - 513,96
+Varmilo MA87M Moonlight (EC Sakura V2) - правильная цена - 513,96
+Varmilo MA87M Sakura (EC Rose V2) - правильная цена - 513,96
+Varmilo MA87M Sakura (EC Sakura V2) - правильная цена - 513,96
+Varmilo MA87M Sea Melody (EC Daisy V2) - правильная цена - 512,73
+Varmilo MA87M Sea Melody (EC Rose V2) - правильная цена - 512,73
+Varmilo MA87M Sea Melody (EC Sakura V2) - правильная цена - 512,73
+Varmilo MA87M Vintage Days (EC Daisy V2) - правильная цена - 513,95
+Varmilo MA87M Vintage Days (EC Rose V2) - правильная цена - 513,95
+Varmilo MA87M Yakumo (EC Daisy V2) - правильная цена - 540,75
+Varmilo MA87M Yakumo (EC Rose V2) - правильная цена - 540,75
+Varmilo MA87M Yakumo (EC Sakura V2) - правильная цена - 540,75
+Varmilo VA108M Koi (Cherry MX Brown, нет кириллицы) - правильная цена - 610,17
+Varmilo VA108M Moonlight (Cherry MX Blue) - правильная цена - 535,88
+Varmilo VA108M Moonlight (Cherry MX Brown) - правильная цена - 535,88
+Varmilo VA108M Moonlight (Cherry MX Red) - правильная цена - 536,69
+Varmilo VA108M Panda (Cherry MX Brown) - правильная цена - 596,76
+Varmilo VA108M Panda (Cherry MX Red) - правильная цена - 596,78
+Varmilo VA108M Sakura (Cherry MX Blue) - правильная цена - 535,88
+Varmilo VA108M Sakura (Cherry MX Red) - правильная цена - 540,75
+Varmilo VA108M Sea Melody (Cherry MX Blue) - правильная цена - 521,22
+Varmilo VA108M Sea Melody (Cherry MX Brown) - правильная цена - 540,76
+Varmilo VA108M Sea Melody (Cherry MX Red) - правильная цена - 521,22
+Varmilo VA108M Summit (Cherry MX Blue) - правильная цена - 521,22
+Varmilo VA108M Summit (Cherry MX Red) - правильная цена - 521,22
+Varmilo VA108M Summit R2 (Cherry MX Blue) - правильная цена - 535,88
+Varmilo VA108M Summit R2 (Cherry MX Brown) - правильная цена - 535,88
+Varmilo VA108M Summit R2 (Cherry MX Red) - правильная цена - 535,88
+Varmilo VA108M Vintage Days (Cherry MX Red) - правильная цена - 535,87
+Varmilo VA108M Vintage Days (Cherry MX Speed Silver) - правильная цена - 564,42
+Varmilo VA108M Yakumo (Cherry MX Blue) - правильная цена - 540,76
+Varmilo VA108M Yakumo (Cherry MX Brown) - правильная цена - 540,75
+Varmilo VA108M Yakumo (Cherry MX Red) - правильная цена - 540,75
+Varmilo VA21M Beijing Opera (Cherry MX Brown) - правильная цена - 152,24
+Varmilo VA21M Panda (Cherry MX Brown) - правильная цена - 152,24
+Varmilo VA87M Beijing Opera (Cherry MX Red, нет кириллицы) - правильная цена - 548,05
+Varmilo VA87M Beijing Opera (Cherry MX Silent Red, нет кириллицы) - правильная цена - 579,72
+Varmilo VA87M Double Rainbow (Cherry RGB Red) - правильная цена - 548,07
+Varmilo VA87M Double Rainbow (Cherry RGB Silent Red) - правильная цена - 572,42
+Varmilo VA87M Koi (Cherry MX Blue, нет кириллицы) - правильная цена - 551,71
+Varmilo VA87M Koi (Cherry MX Brown, нет кириллицы) - правильная цена - 551,71
+Varmilo VA87M Koi (Cherry MX Red, нет кириллицы) - правильная цена - 545,61
+Varmilo VA87M Moonlight (Cherry MX Blue) - правильная цена - 495,68
+Varmilo VA87M Sakura (Cherry MX Blue) - правильная цена - 495,68
+Varmilo VA87M Sakura (Cherry MX Brown) - правильная цена - 495,68
+Varmilo VA87M Sea Melody (Cherry MX Blue) - правильная цена - 478,05
+Varmilo VA87M Sea Melody (Cherry MX Brown) - правильная цена - 490,83
+Varmilo VA87M Sea Melody (Cherry MX Red) - правильная цена - 478,05
+Varmilo VA87M Summit (Cherry MX Blue) - правильная цена - 478,03
+Varmilo VA87M Summit R2 (Cherry MX Blue) - правильная цена - 490,81
+Varmilo VA87M Summit R2 (Cherry MX Brown) - правильная цена - 490,81
+Varmilo VA87M Summit R2 (Cherry MX Red) - правильная цена - 490,81
+Varmilo VA87M Vintage Days (Cherry MX Brown) - правильная цена - 495,68
+Varmilo VA87M Vintage Days (Cherry MX Red) - правильная цена - 495,69
+Varmilo VA87M Yakumo (Cherry MX Blue) - правильная цена - 506,65
+Varmilo VA87M Yakumo (Cherry MX Brown) - правильная цена - 506,65
+Varmilo VA87M Yakumo (Cherry MX Red) - правильная цена - 516,38
