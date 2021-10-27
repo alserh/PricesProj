@@ -47,7 +47,7 @@ class Zoomos():
     # The method below compares the supplier and seller price and outputs an advice.
     # due to the practical purpose of this script - I am going to format the output in a way useful for dayjob
     # Meanwhile any outcome can be predicted and returned as strings
-    # There was a huge issue here with building the correspondence between supplier's name and his price
+    # There was a huge issue here with building the correspondence between supplier's name and price
     # due to how zoomos.csv is built
     # I invented somewhat logic based on previous decision and it now works correctly (Up until offers < 100)
     # But I suspect that it has to be done much easier and more universally
