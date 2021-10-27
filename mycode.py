@@ -103,14 +103,14 @@ class Zoomos():
                     brand=item["Бренд"],
                     price=price_supplier,
                     item=item["Модель"])
-            elif error_price == 0:
-                result += "Где-то критическая ошибочка, друг!"
+            elif price_seller == 0:
+                error_price += "Где-то критическая ошибочка, друг!"
         result = worse_price + "\n" + better_price + "\n" + same_price + "\n" + superior_price + "\n" + error_price
         return result
 
 
-compare_brands = Zoomos("Varmilo", "Durgod", "Leopold")
-print(compare_brands.price_correction("X-Core", "4PLAY"))
+compare_brands = Zoomos("Razer", "Logitech", "Varmilo", "Durgod", "Leopold")
+print(compare_brands.price_correction("5 элемент", "4PLAY"))
 # print(compare_brands.missing_offer("X-Core"))
 # print(compare_brands.clear_list())
 # print(needed_items)
