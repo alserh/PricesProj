@@ -1,11 +1,14 @@
 import csv
 from datetime import date
-import xlrd
+
+# import xlrd
 needed_items = []
-needed_backpacks = []
+
+
+# needed_backpacks = []
 
 # Here we create a class for each pricelist, so that we can address its logic with further variables input
-class Zoomos():
+class Zoomos:
     # initialize by writing a list of relevant items passed by brand.
     # i've implemented a feature to check if the brand is in list and it assumes it was misspelled.
     def __init__(self, *brands):
@@ -18,9 +21,14 @@ class Zoomos():
                     if row["Бренд"] == brand:
                         needed_items.append(row)
             if brand not in temp_brand_list:
-                print(f"ВНИМАНИЕ!!! Бренд {brand} не в списке! Проверяем написание!")
+                print(f"------>> ВНИМАНИЕ!!! Бренд {brand} не в списке! Проверяем написание!")
             else:
                 print(f"Бренд {brand} добавлен в обработку успешно")
+        print("""
+        ===================================================\n
+        Генерация списка завершена. Ищите .txt файл в папке\n
+        ===================================================\n
+        """)
 
     # in case we want to read the dictionary w/o any missing fields and garbage
     def clear_list(self):
@@ -28,7 +36,7 @@ class Zoomos():
         for item in needed_items:
             temp_needed_items = {}
             for k, v in item.items():
-                if item[k] == None or item[k] == "":
+                if item[k] is None or item[k] == "":
                     continue
                 else:
                     temp_needed_items.update({k: v})
@@ -114,48 +122,36 @@ class Zoomos():
         return result
 
 
-compare_brands = Zoomos("Razer", "Logitech", "Memilo", "Red Square")
-print(compare_brands.price_correction("5 элемент", "4PLAY"))
+# if this is called it creates a big result and writes a txt "Полный отчет {date}"
+def full_report(competitor, *brands):
+    zoomos = Zoomos(*brands)
+    with open("Полная проверка на дату {date}.txt".format(date=date.today()), "w") as output:
+        output.write(zoomos.price_correction(competitor, "4PLAY"))
+
+
+# if this is called it creates a small result and writes a txt "Отчет {date}"
+def report(competitor, *brands):
+    zoomos = Zoomos(*brands)
+    with open("Проверка на дату {date}.txt".format(date=date.today()), "w") as output:
+        output.write(zoomos.missing_offer(competitor, "4PLAY"))
+
+# TESTING SECTION BELOW:
+
+# compare_brands = Zoomos("Razer", "Logitech", "Memilo", "Red Square")
+# print(compare_brands.price_correction("5 элемент", "4PLAY"))
 # print(compare_brands.missing_offer("X-Core"))
 # print(compare_brands.clear_list())
 # print(needed_items)
+# full_report("4PLAY", "Razer")
+# report("X-Core", "Razer")
 
 
-# we convert the total offers file with competitors to required format
-# with open("zoomos.csv") as price1:
-#     price1_dict = csv.DictReader(price1, delimiter=";")
-#     for row in price1_dict:
-#         if row["Бренд"] == "Varmilo" \
-#                 or row["Бренд"] == "Durgod" \
-#                 or row["Бренд"] == "Leopold" \
-#                 or row["Бренд"] == "Geekboards":
-#             needed_keyboards.append(row)
-#
-# # we seek for items that miss the offer of the supplier and list them for further exclusion
-# def missing_list():
-#     bad_list = []
-#     for items in needed_keyboards:
-#         if "X-Core" not in list(items.values()):
-#             bad_list.append(items)
-#     return bad_list
-#
-# # # we are checking the price offer with the supplier for further correction
-# def price_correction():
-#     text = ""
-#     for items in needed_keyboards:
-#         supply = 0
-#         seller = 0
-#         for k, v in items.items():
-#             if v == "X-Core":
-#                 supply = items["Цена{number}".format(number = k[-2:])]
-#             if v == "4PLAY":
-#                 seller = items["Цена{number}".format(number = k[-2:])]
-#         if supply != seller:
-#             text += "{brand} {keyboard} - правильная цена - {price}\n".format(brand = items["Бренд"],
-#                                                                               price = supply,
-#                                                                               keyboard = items["Модель"])
-#     return text
-#
+###############################################################################
+# the section below is still work in progress in search for comparison logic
+# between given csv and xls
+###############################################################################
+
+
 # #Exel file section for backpacks
 # book = xlrd.open_workbook("thule.xls")
 # print("The number of worksheets is {0}".format(book.nsheets))
@@ -195,20 +191,4 @@ print(compare_brands.price_correction("5 элемент", "4PLAY"))
 #     for row in range(thule_row(), sh.nrows, 1):
 #         if count_match(backpacks["Модель"], sh.cell_value(rowx = row, colx = 1)) >= 98:
 #             print("Found it! {thule} = {memes}".format(thule = sh.cell_value(rowx = row, colx = 1), memes = backpacks["Модель"]))
-#
-#
-# # Output section
-# with open("Проверка на дату {date}.txt".format(date = date.today()), "w") as output:
-#     output.write("""
-#     =============================
-#     = ВНИМАНИЕ!! НЕТ У X-CORE!! =
-#     =============================\n\n""")
-#     for item in missing_list():
-#         output.write("{brand} {model} - нет у XCore!\n".format(brand = item["Бренд"], model = item["Модель"]))
-#     output.write("\n==============================================================\n")
-#     output.write("""
-#     =================================
-#     = КОРРЕКТИРОВКА ЦЕН (ЕСЛИ НУЖНО)=
-#     =================================\n\n""")
-#     output.write(price_correction())
 #
