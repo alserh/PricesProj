@@ -8,6 +8,7 @@ At a current state it does the following:
 
 The main problem now is to reliably compare the .xls and .csv file for "Thule" positions.
 
+# Done
 In the future we're going to introduce class methods, that will allow to address certain variable values and iterate through the whole zoomos. csv file at least.
 
 The biggest challenge for now is to put it as an online form with user input and perceptive output. 
