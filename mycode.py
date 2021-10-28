@@ -7,14 +7,20 @@ needed_backpacks = []
 # Here we create a class for each pricelist, so that we can address its logic with further variables input
 class Zoomos():
     # initialize by writing a list of relevant items passed by brand.
-    # i'd like to invent logic that returns "error" if any of the brands not in brand list for future
+    # i've implemented a feature to check if the brand is in list and it assumes it was misspelled.
     def __init__(self, *brands):
         for brand in brands:
+            temp_brand_list = []
             with open("zoomos.csv") as zoomos_price:
                 zoomos_dict = csv.DictReader(zoomos_price, delimiter=";")
                 for row in zoomos_dict:
+                    temp_brand_list.append(row["Бренд"])
                     if row["Бренд"] == brand:
                         needed_items.append(row)
+            if brand not in temp_brand_list:
+                print(f"ВНИМАНИЕ!!! Бренд {brand} не в списке! Проверяем написание!")
+            else:
+                print(f"Бренд {brand} добавлен в обработку успешно")
 
     # in case we want to read the dictionary w/o any missing fields and garbage
     def clear_list(self):
@@ -59,7 +65,6 @@ class Zoomos():
         same_price = ""
         superior_price = ""
         error_price = ""
-        result = ""
         for item in needed_items:
             price_supplier = 0
             price_seller = 0
@@ -109,7 +114,7 @@ class Zoomos():
         return result
 
 
-compare_brands = Zoomos("Razer", "Logitech", "Varmilo", "Durgod", "Leopold")
+compare_brands = Zoomos("Razer", "Logitech", "Memilo", "Red Square")
 print(compare_brands.price_correction("5 элемент", "4PLAY"))
 # print(compare_brands.missing_offer("X-Core"))
 # print(compare_brands.clear_list())
